@@ -2,7 +2,7 @@ from random import randrange
 import pickle
 import os 
 
-nbr  = randrange(0,1,2) 
+nbr  = randrange(0,500) 
 
 try:
     with open('scores.pkl', 'rb') as fichier_scores:
